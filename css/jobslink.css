@@ -1,0 +1,80 @@
+/* Start Golbal Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+}
+
+:root {
+  --myContainer: 80%;
+  /* var(); */
+}
+/* End Golbal Rules */
+/* -------------------------------- */
+
+/* --------------------------------------------------------------------------------------------- */
+@media (0px <= width <= 768px) {
+  /* Mobile and medium Screen Rules*/
+}
+
+@media (min-width: 769px) /* big Screen Rules*/ {
+}
+/* --------------------------------------------------------------------------------------------- */
+
+/* Start Header section */
+nav {
+  background-color: #283593;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav img {
+  width: 5em;
+  height: auto;
+  margin-left: 1em;
+}
+
+.navlink {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-right: 5em;
+}
+.navlink a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+  margin-left: 2em;
+}
+.navlink a:hover {
+  color: #c5cae9;
+  transform: rotate(6deg);
+}
+
+/* Start Footer section */
+footer {
+  text-align: center;
+  background-color: antiquewhite;
+}
+footer i {
+  margin-top: 15px;
+  font-size: 40px;
+}
+.goingup {
+  position: relative;
+  right: 0;
+}
+.p {
+  margin: 0;
+  padding: 8px;
+}
+/* End Footer section */
+/* Body Section css Start  */

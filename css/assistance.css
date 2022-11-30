@@ -58,41 +58,42 @@ nav img {
   color: #c5cae9;
   transform: rotate(6deg);
 }
-.headerimg {
-  width: 100%;
-  opacity: 70%;
-}
-header h1 {
-  text-align: center;
-  position: relative;
-  top: -170px;
-  color: #fff;
-  background-color: rgba(2, 2, 2, 0.438);
-  display: inline;
-  margin-left: 10%;
-}
-/* End Header section */
-/* Start body Section  */
-.body {
-  width: var(--myContainer);
 
-  display: block;
-  margin: 0 auto;
-}
-.body h1 {
+/* Body Section css Start  */
+.assistancetitle {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
-.body iframe {
-  margin-left: 15%;
-  /* width: 60%; */
-}
-.body div {
-  width: 70%;
+.assistancespan {
+  background-color: rgba(0, 0, 255, 0.613);
+  width: 500px;
+  height: 5px;
   margin: 0 auto;
+  display: block;
+  margin-bottom: 7%;
+}
+.gridinner {
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.gridItem img {
+  padding: 0 25%;
+}
+.gridItem h2,
+h3 {
+  text-align: center;
+}
+.gridItem {
+  padding: 0 auto;
   text-align: justify;
 }
-/* Endbody Section  */
+.gridItemInner {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* Start Footer section */
 footer {
   text-align: center;
@@ -111,4 +112,3 @@ footer i {
   padding: 8px;
 }
 /* End Footer section */
-/* -----------------------------------END OF INDEX PAGE CSS------------------------------------ */
