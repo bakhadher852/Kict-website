@@ -91,3 +91,12 @@ footer i {
   display: block;
   margin-bottom: 7%;
 }
+.jobsItems {
+  text-align: center;
+  margin: 0 30px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.jobsItems img {
+  width: 300px;
+}
