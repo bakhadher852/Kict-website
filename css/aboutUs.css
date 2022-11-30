@@ -62,7 +62,7 @@ nav img {
 /* Start Footer section */
 footer {
   text-align: center;
-  background-color: antiquewhite;
+  background-color: #28349346;
 }
 footer i {
   margin-top: 15px;
@@ -78,3 +78,29 @@ footer i {
 }
 /* End Footer section */
 /* Body Section css Start  */
+.dean {
+  margin: 0 auto;
+  text-align: center;
+}
+.deanP {
+  width: 78%;
+  margin: 3% 10%;
+  text-align: justify;
+}
+.History {
+  text-align: center;
+}
+#history,
+#titleM {
+  font-weight: bold;
+  font-size: 40px;
+}
+.History img {
+  width: 60%;
+  height: auto;
+}
+.historyP {
+  width: 78%;
+  margin: 3% 10%;
+  text-align: justify;
+}

@@ -62,7 +62,7 @@ nav img {
 /* Start Footer section */
 footer {
   text-align: center;
-  background-color: antiquewhite;
+  background-color: #28349346;
 }
 footer i {
   margin-top: 15px;
@@ -78,3 +78,29 @@ footer i {
 }
 /* End Footer section */
 /* Body Section css Start  */
+
+.onlineformtitle {
+  text-align: center;
+  font-size: 50px;
+}
+.onlineformtitlespan {
+  background-color: rgba(0, 0, 255, 0.567);
+  width: 500px;
+  height: 5px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 7%;
+}
+.gridForm {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 10px;
+}
+.gridForm div {
+  background-color: rgba(56, 21, 228, 0.126);
+  text-align: center;
+}
+.note {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.259);
+}

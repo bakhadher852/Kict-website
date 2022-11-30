@@ -62,7 +62,7 @@ nav img {
 /* Start Footer section */
 footer {
   text-align: center;
-  background-color: antiquewhite;
+  background-color: #28349346;
 }
 footer i {
   margin-top: 15px;
@@ -78,3 +78,16 @@ footer i {
 }
 /* End Footer section */
 /* Body Section css Start  */
+
+.jobslink {
+  text-align: center;
+  font-size: 50px;
+}
+.jobslinkspan {
+  background-color: rgba(0, 0, 255, 0.613);
+  width: 500px;
+  height: 5px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 7%;
+}
