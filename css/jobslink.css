@@ -18,104 +18,417 @@ html {
 
 /* For disktop use  */
 @media (min-width: 769px) /* big Screen Rules*/ {
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 5em;
+    height: auto;
+    margin-left: 1em;
+  }
+
+  .navlink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-right: 5em;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 2em;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  /* Body Section css Start  */
+
+  .jobslink {
+    text-align: center;
+    font-size: 50px;
+  }
+  .jobslinkspan {
+    background-color: rgba(0, 0, 255, 0.613);
+    width: 500px;
+    height: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 7%;
+  }
+  .jobsItems {
+    text-align: center;
+    margin: 0 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .jobsItems img {
+    width: 300px;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .descriptiondiv {
+    padding: 0 12%;
+  }
+  /* Start Footer section */
+  footer {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  /* to add new line only in phone size */
+  .newline {
+    display: none;
+  }
+  /* End Footer section */
 }
 /* For github use  */
 @media only screen and (min-width: 769px) /* big Screen Rules*/ {
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 5em;
+    height: auto;
+    margin-left: 1em;
+  }
+
+  .navlink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-right: 5em;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 2em;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  /* Body Section css Start  */
+
+  .jobslink {
+    text-align: center;
+    font-size: 50px;
+  }
+  .jobslinkspan {
+    background-color: rgba(0, 0, 255, 0.613);
+    width: 500px;
+    height: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 7%;
+  }
+  .jobsItems {
+    text-align: center;
+    margin: 0 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .jobsItems img {
+    width: 300px;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .descriptiondiv {
+    padding: 0 12%;
+  }
+  /* Start Footer section */
+  footer {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  /* to add new line only in phone size */
+  .newline {
+    display: none;
+  }
+  /* End Footer section */
 }
 /* --------------------------------------big screen up ^^^^--------------------------------------- */
 @media (0px <= width <= 768px) {
   /* Mobile and medium Screen Rules*/
+
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 2em;
+    height: auto;
+    margin-left: 5px;
+  }
+
+  .navlink {
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 15px;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+
+  /* End Header section */
+
+  /* ------- */
+
+  /* Body Section css Start  */
+
+  .jobslink {
+    text-align: center;
+    font-size: 30px;
+  }
+  .jobslinkspan {
+    background-color: rgba(0, 0, 255, 0.613);
+    width: 50vw;
+    height: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 7%;
+  }
+  .jobsItems {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100vw;
+  }
+  .jobsItems img {
+    width: 60vw;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .jobsItems div {
+    margin: 1vh 3vw;
+  }
+  .descriptiondiv {
+    padding: 0 12%;
+  }
+  /* ------- */
+
+  /* Start Footer section */
+  footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+    font-size: 40px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  .footerItemone {
+    order: 1;
+  }
+  .footerItemtwo {
+    order: 2;
+  }
+  .footerItemthree {
+    order: 3;
+  }
+  /* End Footer section */
 }
 /* For github use  */
 @media only screen and(0px <= width <= 768px) {
   /* Mobile and medium Screen Rules*/
-}
 
-/* Start Header section */
-nav {
-  background-color: #283593;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-nav img {
-  width: 5em;
-  height: auto;
-  margin-left: 1em;
-}
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 2em;
+    height: auto;
+    margin-left: 5px;
+  }
 
-.navlink {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  padding-right: 5em;
-}
-.navlink a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  transition: all 0.3s ease-out;
-  margin-left: 2em;
-}
-.navlink a:hover {
-  color: #c5cae9;
-  transform: rotate(6deg);
-}
+  .navlink {
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 15px;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
 
-/* Start Footer section */
-footer {
-  display: grid;
-  grid-template-columns: 33.333% 33.333% 33.333%;
-  text-align: center;
-  background-color: #28349346;
-  align-items: center;
-}
-footer i {
-  margin-top: 15px;
-  font-size: 40px;
-}
-.goingup {
-  position: relative;
-  right: 0;
-}
-.footerItem a {
-  margin-left: 15px;
-}
-.p {
-  margin: 0;
-  padding: 8px;
-}
-/* to add new line only in phone size */
-.newline {
-  display: none;
-}
-/* End Footer section */
-/* Body Section css Start  */
+  /* End Header section */
 
-.jobslink {
-  text-align: center;
-  font-size: 50px;
-}
-.jobslinkspan {
-  background-color: rgba(0, 0, 255, 0.613);
-  width: 500px;
-  height: 5px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 7%;
-}
-.jobsItems {
-  text-align: center;
-  margin: 0 30px;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-}
-.jobsItems img {
-  width: 300px;
-}
-.footerItem a {
-  margin-left: 15px;
+  /* ------- */
+
+  /* Body Section css Start  */
+
+  .jobslink {
+    text-align: center;
+    font-size: 30px;
+  }
+  .jobslinkspan {
+    background-color: rgba(0, 0, 255, 0.613);
+    width: 50vw;
+    height: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 7%;
+  }
+  .jobsItems {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100vw;
+  }
+  .jobsItems img {
+    width: 60vw;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .jobsItems div {
+    margin: 1vh 3vw;
+  }
+  .descriptiondiv {
+    padding: 0 12%;
+  }
+  /* ------- */
+
+  /* Start Footer section */
+  footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+    font-size: 40px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  .footerItemone {
+    order: 1;
+  }
+  .footerItemtwo {
+    order: 2;
+  }
+  .footerItemthree {
+    order: 3;
+  }
+  /* End Footer section */
 }
