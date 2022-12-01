@@ -240,7 +240,7 @@ html {
   }
 
   .navlink {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     list-style: none;
     margin: 0;
@@ -252,7 +252,7 @@ html {
     text-decoration: none;
     display: block;
     transition: all 0.3s ease-out;
-    margin-left: 6px;
+    margin-left: 15px;
   }
   .navlink a:hover {
     color: #c5cae9;
@@ -350,7 +350,7 @@ html {
   }
 
   .navlink {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     list-style: none;
     margin: 0;
@@ -362,7 +362,7 @@ html {
     text-decoration: none;
     display: block;
     transition: all 0.3s ease-out;
-    margin-left: 6px;
+    margin-left: 15px;
   }
   .navlink a:hover {
     color: #c5cae9;
