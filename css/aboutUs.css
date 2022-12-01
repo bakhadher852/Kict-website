@@ -199,7 +199,7 @@ html {
   /* End Footer section */
 }
 /* --------------------------------------big screen up ^^^^--------------------------------------- */
-@media (0px <= width <= 768px) {
+@media (max-width: 768px) {
   /* Mobile and medium Screen Rules*/
 
   /* Start Header section */
@@ -311,7 +311,7 @@ html {
   /* End Footer section */
 }
 /* For github use  */
-@media only screen and(0px <= width <= 768px) {
+@media only screen and(max-width: 768px) {
   /* Mobile and medium Screen Rules*/
 
   /* Start Header section */
