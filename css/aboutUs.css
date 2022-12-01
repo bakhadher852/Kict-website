@@ -61,8 +61,11 @@ nav img {
 
 /* Start Footer section */
 footer {
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
   text-align: center;
   background-color: #28349346;
+  align-items: center;
 }
 footer i {
   margin-top: 15px;
@@ -72,6 +75,10 @@ footer i {
   position: relative;
   right: 0;
 }
+.footerItem a {
+  margin-left: 15px;
+}
+
 .p {
   margin: 0;
   padding: 8px;

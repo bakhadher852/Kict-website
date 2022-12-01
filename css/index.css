@@ -17,97 +17,425 @@ html {
 /* -------------------------------- */
 
 /* --------------------------------------------------------------------------------------------- */
-@media (0px <= width <= 768px) {
-  /* Mobile and medium Screen Rules*/
-}
-
+/* For disck top version use */
 @media (min-width: 769px) /* big Screen Rules*/ {
-}
-/* --------------------------------------------------------------------------------------------- */
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 5em;
+    height: auto;
+    margin-left: 1em;
+  }
 
-/* Start Header section */
-nav {
-  background-color: #283593;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  .navlink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-right: 5em;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 2em;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  .headerimg {
+    width: 100%;
+    opacity: 70%;
+  }
+  .indextitle {
+    text-align: center;
+    position: relative;
+    top: -170px;
+    color: #fff;
+    background-color: rgba(2, 2, 2, 0.438);
+    display: inline;
+    margin-left: 10%;
+  }
+  /* End Header section */
+  /* Start body Section  */
+  .body {
+    width: var(--myContainer);
+
+    display: block;
+    margin: 0 auto;
+  }
+  .body h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .body iframe {
+    margin-left: 15%;
+    /* width: 60%; */
+  }
+  .body div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  /* End body Section  */
+  /* Start Footer section */
+  footer {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  /* to add new line only in phone size */
+  .newline {
+    display: none;
+  }
+  /* End Footer section */
 }
-nav img {
-  width: 5em;
-  height: auto;
-  margin-left: 1em;
+/* --------------------------------------------------------------------- */
+/* For github version use  */
+@media only screen and(min-width: 769px) /* big Screen Rules*/ {
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 5em;
+    height: auto;
+    margin-left: 1em;
+  }
+
+  .navlink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-right: 5em;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 2em;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  .headerimg {
+    width: 100%;
+    opacity: 70%;
+  }
+  .indextitle {
+    text-align: center;
+    position: relative;
+    top: -170px;
+    color: #fff;
+    background-color: rgba(2, 2, 2, 0.438);
+    display: inline;
+    margin-left: 10%;
+  }
+  /* End Header section */
+  /* Start body Section  */
+  .body {
+    width: var(--myContainer);
+
+    display: block;
+    margin: 0 auto;
+  }
+  .body h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .body iframe {
+    margin-left: 15%;
+    /* width: 60%; */
+  }
+  .body div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  /* End body Section  */
+  /* Start Footer section */
+  footer {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+  }
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  /* to add new line only in phone size */
+  .newline {
+    display: none;
+  }
+  /* End Footer section */
 }
 
-.navlink {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  padding-right: 5em;
-}
-.navlink a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  transition: all 0.3s ease-out;
-  margin-left: 2em;
-}
-.navlink a:hover {
-  color: #c5cae9;
-  transform: rotate(6deg);
-}
-.headerimg {
-  width: 100%;
-  opacity: 70%;
-}
-.indextitle {
-  text-align: center;
-  position: relative;
-  top: -170px;
-  color: #fff;
-  background-color: rgba(2, 2, 2, 0.438);
-  display: inline;
-  margin-left: 10%;
-}
-/* End Header section */
-/* Start body Section  */
-.body {
-  width: var(--myContainer);
+/* FOR GITHUB USE  */
+/* @media only screen and(max-width: 768px) */
+/* -------------------------------------------------------------big screen up--^^^^----------------------------------------- */
+/* For disktop use  */
+@media (max-width: 768px) {
+  /* Mobile and medium Screen Rules*/
 
-  display: block;
-  margin: 0 auto;
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    width: 57vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 2em;
+    height: auto;
+    margin-left: 5px;
+  }
+
+  .navlink {
+    font-size: 11px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 6px;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  .headerimg {
+    width: 100vw;
+    opacity: 70%;
+  }
+  .indextitle {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(2, 2, 2, 0.438);
+    font-size: 20px;
+    width: 100vw;
+  }
+  /* End Header section */
+  /* Start body Section  */
+  .body {
+    width: 100vw;
+    display: block;
+  }
+  .body h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .body iframe {
+    width: 90vw;
+    height: auto;
+    margin-left: 5vw;
+  }
+  .body div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  /* End body Section  */
+  /* Start Footer section */
+  footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+    font-size: 40px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  .footerItemone {
+    order: 1;
+  }
+  .footerItemtwo {
+    order: 2;
+  }
+  .footerItemthree {
+    order: 3;
+  }
+  /* End Footer section */
 }
-.body h1 {
-  text-align: center;
-  font-size: 40px;
+/* ------------------------------------------------------ */
+/* For gitHub use  */
+@media only screen and(max-width: 768px) {
+  /* Mobile and medium Screen Rules*/
+
+  /* Start Header section */
+  nav {
+    background-color: #283593;
+    width: 57vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav img {
+    width: 2em;
+    height: auto;
+    margin-left: 5px;
+  }
+
+  .navlink {
+    font-size: 11px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navlink a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    margin-left: 6px;
+  }
+  .navlink a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  .headerimg {
+    width: 100vw;
+    opacity: 70%;
+  }
+  .indextitle {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(2, 2, 2, 0.438);
+    font-size: 20px;
+    width: 100vw;
+  }
+  /* End Header section */
+  /* Start body Section  */
+  .body {
+    width: 100vw;
+    display: block;
+  }
+  .body h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .body iframe {
+    width: 90vw;
+    height: auto;
+    margin-left: 5vw;
+  }
+  .body div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  /* End body Section  */
+  /* Start Footer section */
+  footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: #28349346;
+    align-items: center;
+  }
+  footer i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .footerItem a {
+    margin-left: 15px;
+  }
+  .goingup {
+    position: relative;
+    right: 0;
+    font-size: 40px;
+  }
+  .p {
+    margin: 0;
+    padding: 8px;
+  }
+  .footerItemone {
+    order: 1;
+  }
+  .footerItemtwo {
+    order: 2;
+  }
+  .footerItemthree {
+    order: 3;
+  }
+  /* End Footer section */
 }
-.body iframe {
-  margin-left: 15%;
-  /* width: 60%; */
-}
-.body div {
-  width: 70%;
-  margin: 0 auto;
-  text-align: justify;
-}
-/* End body Section  */
-/* Start Footer section */
-footer {
-  text-align: center;
-  background-color: #28349346;
-}
-footer i {
-  margin-top: 15px;
-  font-size: 40px;
-}
-.goingup {
-  position: relative;
-  right: 0;
-}
-.p {
-  margin: 0;
-  padding: 8px;
-}
-/* End Footer section */
